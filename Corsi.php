@@ -11,6 +11,8 @@ class Corsi
     private $aula;
     private $idOrganizzatore;
 
+    // quanto sono bravo a usare visual studio
+
     public function __construct($id, $titolo, $descrizione, $maxPartecipanti, $dataEOra, $aula, $idOrganizzatore)
     {
         $this->id = $id;
